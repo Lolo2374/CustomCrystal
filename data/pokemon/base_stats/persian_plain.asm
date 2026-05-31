@@ -2,11 +2,11 @@ if DEF(FAITHFUL)
 	bst 440,  65,  70,  60,  65,  65, 115
 	;   bst   hp  atk  def  sat  sdf  spe
 else
-	bst 460,  65,  80,  60,  75,  65, 115
+	bst 460,  65,  95,  60,  75,  65, 115
 	;   bst   hp  atk  def  sat  sdf  spe
 endc
 
-	db NORMAL, NORMAL ; type
+	db NORMAL, DARK ; type
 	db 90 ; catch rate
 	db 148 ; base exp
 	db NO_ITEM, QUICK_CLAW ; held items
