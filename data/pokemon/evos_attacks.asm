@@ -1224,6 +1224,7 @@ endc
 	learnset 1, FLAME_CHARGE
 	learnset 1, TAKE_DOWN
 	learnset 1, EXTREMESPEED ; evolution move
+	learnset 65, SACRED_FIRE
 
 	evos_attacks GrowlitheHisuian
 	evo_data EVOLVE_ITEM, FIRE_STONE, ARCANINE, HISUIAN_FORM
