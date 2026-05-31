@@ -6,7 +6,7 @@ else
 	;   bst   hp  atk  def  sat  sdf  spe
 endc
 
-	db NORMAL, FLYING ; type
+	db FLYING, FLYING ; type
 	db 120 ; catch rate
 	db 113 ; base exp
 	db NO_ITEM, NO_ITEM ; held items
