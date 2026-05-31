@@ -873,7 +873,7 @@ endc
 
 	evos_attacks Vileplume
 	learnset 1, MEGA_DRAIN
-	learnset 1, HEAL_BELL ; Aromatherapy → similar move
+	learnset 1, DARK_PULSE
 	learnset 1, POISONPOWDER
 	learnset 1, STUN_SPORE
 	learnset 39, GROWTH
@@ -908,7 +908,7 @@ endc
 	learnset 22, SPORE
 	learnset 29, SLASH
 	learnset 37, GROWTH
-	learnset 44, GIGA_DRAIN
+	learnset 44, CRABHAMMER
 	learnset 51, LEECH_LIFE ; Aromatherapy → TM move
 	learnset 59, HEALINGLIGHT ; Rage Powder → new move
 	learnset 66, X_SCISSOR
@@ -1108,7 +1108,7 @@ endc
 	learnset 32, POWER_GEM
 	learnset 37, SLASH
 	learnset 44, NASTY_PLOT
-	learnset 49, THIEF ; Assurance → TM move
+	learnset 49, DAZZLINGLEAM
 	learnset 56, CHARM ; Captivate → egg move
 	learnset 61, NIGHT_SLASH
 	learnset 65, DARK_PULSE
