@@ -6,7 +6,7 @@ else
 	;   bst   hp  atk  def  sat  sdf  spe
 endc
 
-	db ELECTRIC, ELECTRIC ; type
+	db ELECTRIC, FIGHTING ; type
 	db 45 ; catch rate
 	db 156 ; base exp
 	db PERSIM_BERRY, ELECTIRIZER ; held items
