@@ -1,7 +1,7 @@
 	bst 430,  55,  95,  55,  35,  75, 115
 	;   bst   hp  atk  def  sat  sdf  spe
 
-	db POISON, FIGHTING ; type
+	db POISON, ICE ; type
 	db 60 ; catch rate
 	db 132 ; base exp
 	db GRIP_CLAW, QUICK_CLAW ; held items
