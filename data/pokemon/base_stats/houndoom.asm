@@ -1,4 +1,4 @@
-	bst 500,  75,  100,  50, 115,  80,  95
+	bst 515,  75,  100,  50, 115,  80,  95
 	;   bst   hp  atk  def  sat  sdf  spe
 
 	db DARK, FIRE ; type
