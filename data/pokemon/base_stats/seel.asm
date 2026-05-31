@@ -1,7 +1,7 @@
 	bst 325,  65,  45,  55,  45,  70,  45
 	;   bst   hp  atk  def  sat  sdf  spe
 
-	db WATER, WATER ; type
+	db WATER, ICE ; type
 	db 190 ; catch rate
 	db 100 ; base exp
 	db NO_ITEM, RAWST_BERRY ; held items
