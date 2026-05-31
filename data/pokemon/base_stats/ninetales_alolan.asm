@@ -1,4 +1,4 @@
-	bst 505,  73,  67,  75,  81, 100, 109
+	bst 505,  73,  67,  75,  91, 100, 109
 	;   bst   hp  atk  def  sat  sdf  spe
 
 	db ICE, FAIRY ; type
