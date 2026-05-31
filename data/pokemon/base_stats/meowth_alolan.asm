@@ -6,7 +6,7 @@ else
 	;   bst   hp  atk  def  sat  sdf  spe
 endc
 
-	db DARK, DARK ; type
+	db DARK, FAIRY ; type
 	db 255 ; catch rate
 	db 69 ; base exp
 	db NO_ITEM, AMULET_COIN ; held items
