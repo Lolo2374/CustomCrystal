@@ -1,4 +1,4 @@
-	bst 309,  39,  52,  43,  60,  50,  65
+	bst 309,  39,  60,  43,  52,  50,  65
 	;   bst   hp  atk  def  sat  sdf  spe
 
 	db FIRE, FIRE ; type
