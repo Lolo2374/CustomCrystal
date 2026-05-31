@@ -6,7 +6,7 @@ else
 	;   bst   hp  atk  def  sat  sdf  spe
 endc
 
-	db NORMAL, NORMAL ; type
+	db NORMAL, FIGHTING ; type
 	db 45 ; catch rate
 	db 211 ; base exp
 	db NO_ITEM, NO_ITEM ; held items
