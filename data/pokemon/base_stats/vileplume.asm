@@ -6,7 +6,7 @@ else
 	;   bst   hp  atk  def  sat  sdf  spe
 endc
 
-	db GRASS, POISON ; type
+	db GRASS, DARK ; type
 	db 45 ; catch rate
 if DEF(FAITHFUL)
 	db 184 ; base exp
@@ -16,7 +16,7 @@ endc
 	db ALWAYS_ITEM_2, MIRACLE_SEED ; held items
 	dn GENDER_F50, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
 
-	abilities_for VILEPLUME, CHLOROPHYLL, CHLOROPHYLL, EFFECT_SPORE
+	abilities_for VILEPLUME, CHLOROPHYLL, POISON_HEAL, EFFECT_SPORE
 	db GROWTH_MEDIUM_SLOW ; growth rate
 	dn EGG_PLANT, EGG_PLANT ; egg groups
 
