@@ -1,4 +1,4 @@
-	bst 500,  75,  90,  50, 110,  80,  95
+	bst 500,  75,  100,  50, 115,  80,  95
 	;   bst   hp  atk  def  sat  sdf  spe
 
 	db DARK, FIRE ; type
@@ -7,7 +7,7 @@
 	db NO_ITEM, NO_ITEM ; held items
 	dn GENDER_F50, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
 
-	abilities_for HOUNDOOM, EARLY_BIRD, FLASH_FIRE, SOLAR_POWER
+	abilities_for HOUNDOOM, INTIMIDATE, FLASH_FIRE, SOLAR_POWER
 	db GROWTH_SLOW ; growth rate
 	dn EGG_GROUND, EGG_GROUND ; egg groups
 
