@@ -6,7 +6,7 @@ else
 	;   bst   hp  atk  def  sat  sdf  spe
 endc
 
-	db NORMAL, FLYING ; type
+	db FLYING, FLYING ; type
 	db 45 ; catch rate
 if DEF(FAITHFUL)
 	db 172 ; base exp
