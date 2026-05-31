@@ -1,4 +1,4 @@
-	bst 405,  58,  64,  58,  80,  65,  80
+	bst 405,  58,  80,  58,  64,  65,  80
 	;   bst   hp  atk  def  sat  sdf  spe
 
 	db FIRE, FIRE ; type
