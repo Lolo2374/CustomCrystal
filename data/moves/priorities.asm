@@ -6,10 +6,12 @@ MovePriorities:
 	db EXTREMESPEED,  2
 	db AQUA_JET,      1
 	db BULLET_PUNCH,  1
+	db FLAME_CHARGE,  1
 	db ICE_SHARD,     1
 	db MACH_PUNCH,    1
 	db QUICK_ATTACK,  1
 	db SUCKER_PUNCH,  1
+	db WING_ATTACK,   1
 	; everything else 0
 	db AVALANCHE,    -4
 	db COUNTER,      -5
