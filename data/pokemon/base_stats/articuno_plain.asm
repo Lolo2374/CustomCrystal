@@ -1,4 +1,4 @@
-	bst 580,  90,  85, 100,  95, 125,  85
+	bst 580,  90,  85, 100, 125, 95,  85
 	;   bst   hp  atk  def  sat  sdf  spe
 
 	db ICE, FLYING ; type
