@@ -4583,7 +4583,7 @@ endc
 	learnset 35, SLASH
 	learnset 40, SWORDS_DANCE
 	learnset 44, X_SCISSOR ; Punishment → TM move
-	learnset 47, ICICILE_CRASH
+	learnset 47, ICICLE_CRASH
 	learnset 50, GUNK_SHOT ; SV TM move
 
 	evos_attacks Teddiursa
