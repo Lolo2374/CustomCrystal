@@ -6,7 +6,7 @@ else
 	;   bst   hp  atk  def  sat  sdf  spe
 endc
 
-	db ROCK, GROUND ; type
+	db ROCK, ROCK ; type
 	db 45 ; catch rate
 	db 177 ; base exp
 	db NO_ITEM, EVERSTONE ; held items
