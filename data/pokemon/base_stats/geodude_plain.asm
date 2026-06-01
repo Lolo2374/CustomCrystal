@@ -1,7 +1,7 @@
 	bst 300,  40,  80, 100,  30,  30,  20
 	;   bst   hp  atk  def  sat  sdf  spe
 
-	db ROCK, GROUND ; type
+	db ROCK, ROCK ; type
 	db 255 ; catch rate
 	db 86 ; base exp
 	db NO_ITEM, EVERSTONE ; held items
