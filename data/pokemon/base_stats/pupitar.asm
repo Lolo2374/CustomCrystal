@@ -1,4 +1,4 @@
-	bst 410,  70,  84,  70,  65,  70,  51
+	bst 450,  70,  94,  80,  75,  80,  51
 	;   bst   hp  atk  def  sat  sdf  spe
 
 	db ROCK, GROUND ; type
