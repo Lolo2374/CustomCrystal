@@ -6,7 +6,7 @@ else
 	;   bst   hp  atk  def  sat  sdf  spe
 endc
 
-	db Fighting, FLYING ; type
+	db FIGHTING, FLYING ; type
 	db 90 ; catch rate
 if DEF(FAITHFUL)
 	db 162 ; base exp
