@@ -777,7 +777,7 @@ KarenGroup:
 		tr_evs 132 Atk, 252 Spe
 		tr_moves DRILL_PECK, SUCKER_PUNCH, PURSUIT, BRAVE_BIRD
 	tr_mon 59, HOUNDOOM @ CHARCOAL, FEMALE
-		tr_extra Intimidate
+		tr_extra INTIMIDATE
 		tr_evs 192 SAt, 192 Spe
 		tr_moves SUPER_FANG, SLUDGE_BOMB, FLAMETHROWER, DARK_PULSE
 	end_trainer
@@ -820,7 +820,7 @@ endc
 		tr_evs 252 HP, 4 SDf, 252 Atk
 		tr_moves STONE_EDGE, CRUNCH, EARTHQUAKE, PURSUIT
 	tr_mon 76, HOUNDOOM @ FOCUS_SASH, FEMALE
-		tr_extra Intimidate, SPE_UP_ATK_DOWN
+		tr_extra INTIMIDATE, SPE_UP_ATK_DOWN
 		tr_evs 252 SAt, 4 Def, 252 Spe
 		tr_moves SLUDGE_BOMB, NASTY_PLOT, FIRE_BLAST, DARK_PULSE
 	end_trainer
@@ -7395,7 +7395,7 @@ ArcherGroup:
 		tr_evs 252 HP
 		tr_moves SMOKESCREEN, WILL_O_WISP, PAIN_SPLIT, SLUDGE_BOMB
 	tr_mon 44, HOUNDOOM @ KINGS_ROCK, MALE
-		tr_extra Intimidate
+		tr_extra INTIMIDATE
 		tr_evs 124 SAt, 124 Spe
 		tr_moves SMOKESCREEN, SUPER_FANG, FEINT_ATTACK, FLAMETHROWER
 	end_trainer
@@ -7414,7 +7414,7 @@ ArcherGroup:
 		tr_evs 88 Atk, 88 Spe
 		tr_moves WILL_O_WISP, EXPLOSION, VENOSHOCK, SMOKESCREEN
 	tr_mon 32, HOUNDOOM @ KINGS_ROCK, MALE
-		tr_extra Intimidate
+		tr_extra INTIMIDATE
 		tr_evs 88 Spe, 88 SAt
 		tr_moves FLAMETHROWER, SMOKESCREEN, FEINT_ATTACK, SUPER_FANG
 	end_trainer
@@ -8563,7 +8563,7 @@ FlanneryGroup:
 		tr_evs 252 Atk, 172 Spe
 		tr_moves FLARE_BLITZ, OUTRAGE, CRUNCH, EXTREMESPEED
 	tr_mon 63, HOUNDOOM, FEMALE
-		tr_extra Intimidate
+		tr_extra INTIMIDATE
 		tr_evs 172 SAt, 252 Spe
 		tr_moves FLAMETHROWER, DARK_PULSE, SUCKER_PUNCH, DESTINY_BOND
 	tr_mon 63, RAPIDASH, FEMALE
