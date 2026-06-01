@@ -2,11 +2,11 @@ if DEF(FAITHFUL)
 	bst 442,  65,  90,  65,  61,  61, 100
 	;   bst   hp  atk  def  sat  sdf  spe
 else
-	bst 485,  85,  95,  80,  61,  64, 100
+	bst 485,  85, 105,  70,  61,  64, 100
 	;   bst   hp  atk  def  sat  sdf  spe
 endc
 
-	db NORMAL, FLYING ; type
+	db Fighting, FLYING ; type
 	db 90 ; catch rate
 if DEF(FAITHFUL)
 	db 162 ; base exp
