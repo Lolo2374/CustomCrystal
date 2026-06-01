@@ -1981,7 +1981,7 @@ endc
 	tr_mon 72, TYPHLOSION @ LEFTOVERS
 		tr_extra FLASH_FIRE, SPE_UP_ATK_DOWN
 		tr_evs 252 SAt, 4 SDf, 252 Spe
-		tr_moves FLARE_BLITZ, ROCK_SLIDE, EARTHQUAKE, THUNDER_PUNCH
+		tr_moves FLARE_BLITZ, ROCK_SLIDE, EARTHQUAKE, THUNDERPUNCH
 	end_trainer
 
 def_trainer 6, "<RIVAL>"
@@ -2217,7 +2217,7 @@ endc
 	tr_mon 72, "Cinder", TYPHLOSION @ HEAT_ROCK, FEMALE
 		tr_extra FLASH_FIRE, SPE_UP_ATK_DOWN
 		tr_evs 252 Atk, 4 SDf, 252 Spe
-		tr_moves FLARE_BLITZ, ROCK_SLIDE, EARTHQUAKE, THUNDER_PUNCH
+		tr_moves FLARE_BLITZ, ROCK_SLIDE, EARTHQUAKE, THUNDERPUNCH
 	end_trainer
 
 	def_trainer 3, "Lyra"
