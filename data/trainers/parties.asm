@@ -767,7 +767,7 @@ KarenGroup:
 	tr_mon 56, VILEPLUME @ TOXIC_ORB, FEMALE
 		tr_extra POISON_HEAL
 		tr_evs 252 Hp, 132 SAt
-		tr_moves MOON_BLAST, PROTECT, DARK_PULSE, GIGA_DRAIN
+		tr_moves MOONBLAST, PROTECT, DARK_PULSE, GIGA_DRAIN
 	tr_mon 57, GENGAR @ SPELL_TAG, FEMALE
 		tr_extra LEVITATE
 		tr_evs 252 SAt, 132 Spe
