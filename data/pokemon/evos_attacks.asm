@@ -436,7 +436,7 @@ endc
 	learnset 32, FOCUS_ENERGY
 	learnset 36, ROOST
 	learnset 41, DRILL_PECK
-	learnset 45, DOUBLE_EDGE ; Drill Run → tutor move
+	learnset 45, CLOSE_COMBAT
 
 	evos_attacks Ekans
 	evo_data EVOLVE_LEVEL, 22, ARBOK, NO_FORM ; preserve pre-evo form
@@ -2771,14 +2771,14 @@ endc
 	learnset 11, SCARY_FACE
 	learnset 15, PURSUIT
 	learnset 19, REST
-	learnset 24, QUICK_ATTACK ; Payback → event move
+	learnset 24, DOUBLE_KICK
 	learnset 29, FOCUS_ENERGY ; Work Up → LGPE move
 	learnset 35, TAKE_DOWN
 	learnset 41, ZEN_HEADBUTT
 	learnset 48, SWAGGER
 	learnset 55, THRASH
 	learnset 63, DOUBLE_EDGE
-	learnset 71, GIGA_IMPACT
+	learnset 71, CLOSE_COMBAT
 	learnset 80, OUTRAGE ; HGSS tutor move
 
 	evos_attacks TaurosPaldean
@@ -3029,10 +3029,10 @@ endc
 	learnset 21, LEER ; Sand Attack → Leer
 	learnset 26, ENDURE
 	learnset 31, AQUA_JET
-	learnset 36, MEGA_DRAIN
+	learnset 36, X_SCISSOR
 	learnset 41, SCREECH ; Metal Sound → similar move
 	learnset 46, ANCIENTPOWER
-	learnset 51, GIGA_DRAIN ; Wring Out → TM move
+	learnset 51, LEECH_LIFE ; Wring Out → TM move
 	learnset 56, IRON_HEAD ; new move
 	learnset 61, SHELL_SMASH ; new move
 
@@ -3047,7 +3047,7 @@ endc
 	learnset 21, LEER ; Sand Attack → Leer
 	learnset 26, ENDURE
 	learnset 31, AQUA_JET
-	learnset 36, MEGA_DRAIN
+	learnset 36, X_SCISSOR
 	learnset 45, SCREECH ; Metal Sound → similar move
 	learnset 54, ANCIENTPOWER
 	learnset 63, LEECH_LIFE ; Wring Out → LGPE move
@@ -4443,7 +4443,7 @@ endc
 	learnset 27, ROAR
 	learnset 35, RAGE
 	learnset 43, PLAY_ROUGH
-	learnset 51, DOUBLE_EDGE ; Payback → event move
+	learnset 51, CLOSE_COMBAT
 	learnset 59, CRUNCH
 	learnset 67, OUTRAGE
 
@@ -4562,7 +4562,7 @@ endc
 	learnset 28, ICICLE_CRASH ; Beat Up → egg move
 	learnset 32, SCREECH
 	learnset 35, SLASH
-	learnset 40, HEALINGLIGHT ; Snatch → event move (Moonlight)
+	learnset 40, SWORDS_DANCE 
 	learnset 44, X_SCISSOR ; Punishment → TM move
 	learnset 47, CRUNCH ; Ice Shard → new move
 
@@ -4573,7 +4573,7 @@ endc
 	learnset 1, BITE ; Taunt → egg move
 	learnset 8, QUICK_ATTACK
 	learnset 10, FEINT_ATTACK
-	learnset 14, LOW_KICK ; Rock Smash → Low Kick
+	learnset 14, ICE_SHARD 
 	learnset 16, FURY_STRIKES ; Fury Swipes → similar move
 	learnset 20, AGILITY
 	learnset 22, METAL_CLAW
@@ -4583,7 +4583,7 @@ endc
 	learnset 35, SLASH
 	learnset 40, SWORDS_DANCE
 	learnset 44, X_SCISSOR ; Punishment → TM move
-	learnset 47, CLOSE_COMBAT
+	learnset 47, ICICILE_CRASH
 	learnset 50, GUNK_SHOT ; SV TM move
 
 	evos_attacks Teddiursa
@@ -5839,7 +5839,7 @@ endc
 	learnset 1, BITE ; Taunt → egg move
 	learnset 8, QUICK_ATTACK
 	learnset 10, FEINT_ATTACK
-	learnset 14, LOW_KICK ; Rock Smash → Low Kick
+	learnset 14, ICE_SHARD
 	learnset 16, FURY_STRIKES ; Fury Swipes → similar move
 	learnset 20, AGILITY
 	learnset 22, METAL_CLAW
@@ -5849,7 +5849,7 @@ endc
 	learnset 35, SLASH
 	learnset 40, SWORDS_DANCE
 	learnset 44, X_SCISSOR ; Punishment → TM move
-	learnset 47, CLOSE_COMBAT
+	learnset 47, ICICLE_CRASH
 	learnset 50, GUNK_SHOT ; SV TM move
 
 	evos_attacks Overqwil
