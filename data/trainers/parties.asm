@@ -344,6 +344,10 @@ endc
 		tr_extra INTIMIDATE
 		tr_evs 160 Atk
 		tr_moves BULK_UP, SUCKER_PUNCH, DOUBLE_KICK, RAPID_SPIN
+tr_mon 31, FEAROW, MALE
+		tr_extra SNIPER
+		tr_evs 160 Atk
+		tr_moves FOCUS_ENERGY, AERIAL_ACE, FEINT_ATTACK, FURY_STRIKES
 	tr_mon 33, POLIWRATH @ ZOOM_LENS, MALE
 		tr_extra WATER_ABSORB
 		tr_evs 160 Atk
