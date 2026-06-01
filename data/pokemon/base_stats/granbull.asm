@@ -1,4 +1,4 @@
-	bst 450,  90, 120,  75,  60,  60,  45
+	bst 465,  90, 120,  75,  60,  75,  45
 	;   bst   hp  atk  def  sat  sdf  spe
 
 	db FAIRY, FIGHTING ; type
