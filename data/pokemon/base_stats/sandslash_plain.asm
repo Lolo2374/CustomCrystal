@@ -1,4 +1,4 @@
-	bst 450,  75, 100, 110,  45,  55,  65
+	bst 450,  75, 100, 120,  25,  65,  65
 	;   bst   hp  atk  def  sat  sdf  spe
 
 	db GROUND, GROUND ; type
