@@ -103,11 +103,11 @@ FalknerGroup:
 
 	def_trainer_class FALKNER
 	def_trainer 1, "Falkner"
-	tr_mon 10, NATU, MALE
+	tr_mon 11, NATU, MALE
 		tr_extra SYNCHRONIZE
 		tr_evs 32 HP
 		tr_moves PECK, LEER, NIGHT_SHADE, MUD_SLAP
-	tr_mon 11, HOOTHOOT, MALE
+	tr_mon 12, HOOTHOOT, MALE
 		tr_extra INSOMNIA
 		tr_evs 32 HP
 		tr_moves TACKLE, HYPNOSIS, PECK, CONFUSION
@@ -154,21 +154,21 @@ BugsyGroup:
 
 	def_trainer_class BUGSY
 	def_trainer 1, "Bugsy"
-	tr_mon 17, SCYTHER, FEMALE
+	tr_mon 19, SCYTHER, FEMALE
 		tr_extra SWARM
 		tr_evs 64 Atk
 		tr_moves QUICK_ATTACK, LEER, PURSUIT, U_TURN
-	tr_mon 14, BUTTERFREE, MALE
+	tr_mon 16, BUTTERFREE, MALE
 		tr_evs 32 SAt, 32 Spe
 		tr_moves TACKLE, POISONPOWDER, SLEEP_POWDER, CONFUSION
-	tr_mon 14, BEEDRILL, MALE
+	tr_mon 16, BEEDRILL, MALE
 		tr_extra SNIPER
 		tr_evs 32 Atk, 32 Spe
 		tr_moves POISON_STING, STRING_SHOT, DEFENSE_CURL, FURY_STRIKES
-	tr_mon 14, YANMA, FEMALE
+	tr_mon 16, YANMA, FEMALE
 		tr_extra SPEED_BOOST
 		tr_evs 64 Atk
-		tr_moves FORESIGHT, QUICK_ATTACK, DOUBLE_TEAM, SONIC_BOOM
+		tr_moves FORESIGHT, GUST, DOUBLE_TEAM, SONIC_BOOM
 	end_trainer
 
 	def_trainer 2, "Bugsy"
@@ -208,19 +208,19 @@ WhitneyGroup:
 
 	def_trainer_class WHITNEY
 	def_trainer 1, "Whitney"
-	tr_mon 19, CLEFAIRY, FEMALE
+	tr_mon 21, CLEFAIRY, FEMALE
 		tr_extra CUTE_CHARM
 		tr_evs 96 HP
 		tr_moves METRONOME, DISARM_VOICE, DOUBLE_SLAP, ATTRACT
-	tr_mon 20, TEDDIURSA, FEMALE
+	tr_mon 22, TEDDIURSA, FEMALE
 		tr_extra PICKUP
 		tr_evs 32 HP, 32 Atk, 32 Spe
 		tr_moves SCRATCH, ATTRACT, LICK, FEINT_ATTACK
-	tr_mon 19, MUNCHLAX, FEMALE
-		tr_extra THICK_FAT
-		tr_evs 64 Def, 32 SDf
-		tr_moves ATTRACT, METRONOME, DEFENSE_CURL, ROLLOUT
-	tr_mon 21, "Milky", MILTANK @ LUM_BERRY, FEMALE
+	tr_mon 20, FURRET, FEMALE
+		tr_extra KEEN_EYE
+		tr_evs 64 Atk, 32 Spe
+		tr_moves ATTRACT, DIZZY_PUNCH, DEFENSE_CURL, ROLLOUT
+	tr_mon 23, "Milky", MILTANK @ LUM_BERRY, FEMALE
 		tr_extra SCRAPPY
 		tr_evs 48 Atk, 48 Spe
 		tr_moves DEFENSE_CURL, STOMP, FRESH_SNACK, ROLLOUT
@@ -259,26 +259,26 @@ MortyGroup:
 
 	def_trainer_class MORTY
 	def_trainer 1, "Morty"
-	tr_mon 24, HAUNTER, MALE
+	tr_mon 26, HAUNTER, MALE
 		tr_extra LEVITATE
 		tr_evs 64 Atk, 64 Spe
 		tr_moves HYPNOSIS, ICE_PUNCH, NIGHT_SHADE, SHADOW_CLAW
 if DEF(FAITHFUL)
-	tr_mon 24, HAUNTER, MALE
+	tr_mon 26, HAUNTER, MALE
 		tr_extra LEVITATE
 		tr_evs 64 SAt, 64 Spe
 		tr_moves HYPNOSIS, CONFUSE_RAY, DISABLE, SHADOW_BALL
 else
-	tr_mon 24, NOCTOWL, MALE
+	tr_mon 26, NOCTOWL, MALE
 		tr_extra INSOMNIA
 		tr_evs 64 HP, 64 Spe
 		tr_moves HYPNOSIS, FORESIGHT, CONFUSION, HEX
 endc
-	tr_mon 25, MISDREAVUS, MALE
+	tr_mon 26, MISDREAVUS, FEMALE
 		tr_extra LEVITATE
 		tr_evs 64 SAt, 64 Spe
 		tr_moves DISARM_VOICE, DARK_PULSE, NASTY_PLOT, SHADOW_BALL
-	tr_mon 26, GENGAR @ WIDE_LENS, MALE
+	tr_mon 28, GENGAR @ WIDE_LENS, MALE
 if DEF(FAITHFUL)
 		tr_extra CURSED_BODY
 else
@@ -301,7 +301,7 @@ endc
 		tr_extra ROCK_HEAD, ATK_UP_SATK_DOWN
 		tr_evs 252 HP, 252 Atk, 4 SDf
 		tr_moves BONEMERANG, FLARE_BLITZ, ICE_PUNCH, SHADOW_CLAW
-	tr_mon 73, MISMAGIUS @ LIFE_ORB, MALE
+	tr_mon 73, MISMAGIUS @ LIFE_ORB, FEMALE
 		tr_extra LEVITATE, SPE_UP_ATK_DOWN
 		tr_evs 4 HP, 252 SAt, 252 Spe
 		tr_moves SHADOW_BALL, THUNDERBOLT, DAZZLINGLEAM, NASTY_PLOT
@@ -328,11 +328,11 @@ ChuckGroup:
 
 	def_trainer_class CHUCK
 	def_trainer 1, "Chuck"
-	tr_mon 30, PRIMEAPE, MALE
+	tr_mon 31, PRIMEAPE, MALE
 		tr_extra DEFIANT
 		tr_evs 160 Atk
-		tr_moves KARATE_CHOP, SEISMIC_TOSS, FEINT_ATTACK, DYNAMICPUNCH
-	tr_mon 29, FARFETCH_D, MALE | GALARIAN_FORM
+		tr_moves KARATE_CHOP, ROCK_SLIDE, FEINT_ATTACK, DYNAMICPUNCH
+	tr_mon 31, FARFETCH_D, MALE | GALARIAN_FORM
 		tr_extra STEADFAST
 		tr_evs 160 Atk
 if DEF(FAITHFUL)
@@ -340,11 +340,11 @@ if DEF(FAITHFUL)
 else
 		tr_moves REVERSAL, BODY_SLAM, FEINT_ATTACK, SWORDS_DANCE
 endc
-	tr_mon 28, HITMONTOP, MALE
+	tr_mon 30, HITMONTOP, MALE
 		tr_extra INTIMIDATE
 		tr_evs 160 Atk
 		tr_moves BULK_UP, SUCKER_PUNCH, DOUBLE_KICK, RAPID_SPIN
-	tr_mon 31, POLIWRATH @ ZOOM_LENS, MALE
+	tr_mon 33, POLIWRATH @ ZOOM_LENS, MALE
 		tr_extra WATER_ABSORB
 		tr_evs 160 Atk
 		tr_moves ICE_PUNCH, HYPNOSIS, WATERFALL, DYNAMICPUNCH
@@ -387,23 +387,23 @@ JasmineGroup:
 
 	def_trainer_class JASMINE
 	def_trainer 1, "Jasmine"
-	tr_mon 34, SKARMORY, FEMALE
+	tr_mon 36, SKARMORY, FEMALE
 		tr_extra STURDY
 		tr_evs 192 HP
 		tr_moves MUD_SLAP, DRILL_PECK, SPIKES, STEEL_WING
-	tr_mon 33, MAGNETON
+	tr_mon 35, MAGNETON
 		tr_extra MAGNET_PULL
 		tr_evs 192 HP
 		tr_moves SUPERSONIC, THUNDER_WAVE, THUNDERBOLT, TRI_ATTACK
-	tr_mon 34, FORRETRESS, FEMALE
-		tr_extra STURDY
+	tr_mon 36, CORSOLA_PLAIN, FEMALE
+		tr_extra NATURAL_CURE
 		tr_evs 192 HP
-		tr_moves SPIKES, GYRO_BALL, DEFENSE_CURL, ROLLOUT
-	tr_mon 33, SCIZOR, FEMALE
+		tr_moves ANIENCPOWER, BUBBLE_BEAM, ICICLE_SPEAR, RECOVER
+	tr_mon 37, SCIZOR, FEMALE
 		tr_extra TECHNICIAN
 		tr_evs 192 HP
-		tr_moves PURSUIT, AERIAL_ACE, METAL_CLAW, SLASH
-	tr_mon 37, STEELIX @ LEFTOVERS, FEMALE
+		tr_moves PURSUIT, AERIAL_ACE, BULLET_PUNCH, SLASH
+	tr_mon 39, STEELIX @ LEFTOVERS, FEMALE
 		tr_extra STURDY
 		tr_evs 192 HP
 		tr_moves BODY_SLAM, BULLDOZE, ROCK_SLIDE, IRON_TAIL
@@ -448,11 +448,11 @@ PryceGroup:
 	tr_mon 39, DEWGONG @ CHESTO_BERRY, MALE
 		tr_extra HYDRATION
 		tr_evs 224 HP
-		tr_moves WATERFALL, REST, RAIN_DANCE, AURORA_BEAM
-	tr_mon 38, SNEASEL, MALE
-		tr_extra INNER_FOCUS
+		tr_moves WATERFALL, REST, HAIL, AURORA_BEAM
+	tr_mon 38, WEAVILE, MALE
+		tr_extra PRESSURE
 		tr_evs 224 Atk
-		tr_moves SWORDS_DANCE, ICICLE_CRASH, SCREECH, SLASH
+		tr_moves SWORDS_DANCE, ICICLE_CRASH, FURY_STRIKES, NIGHT_SLASH
 	tr_mon 38, CLOYSTER, MALE
 		tr_extra SHELL_ARMOR
 		tr_evs 224 HP
@@ -460,7 +460,7 @@ PryceGroup:
 	tr_mon 40, LAPRAS, MALE
 		tr_extra WATER_ABSORB
 		tr_evs 224 HP
-		tr_moves SING, CONFUSE_RAY, ANCIENTPOWER, ICE_BEAM
+		tr_moves SING, CONFUSE_RAY, SURF, ICE_BEAM
 	tr_mon 42, MAMOSWINE @ SITRUS_BERRY, MALE
 		tr_extra OBLIVIOUS
 		tr_evs 224 Atk
