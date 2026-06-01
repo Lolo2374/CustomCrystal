@@ -920,7 +920,7 @@ endc
 	tr_mon 65, KABUTOPS, MALE
 		tr_extra BATTLE_ARMOR
 		tr_evs 196 Atk, 252 SAt
-		tr_moves SLASH, SURF, ROCK_SLIDE, GIGA_DRAIN
+		tr_moves SLASH, WATERFALL, ROCK_SLIDE, LEECH_LIFE
 	tr_mon 65, AERODACTYL, MALE
 		tr_extra ROCK_HEAD
 		tr_evs 252 Atk, 196 Spe
