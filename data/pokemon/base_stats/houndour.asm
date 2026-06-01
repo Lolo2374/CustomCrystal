@@ -8,7 +8,7 @@
 	dn GENDER_F50, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
 
 	abilities_for HOUNDOUR, EARLY_BIRD, FLASH_FIRE, UNNERVE
-	db GROWTH_SLOW ; growth rate
+	db GROWTH_MEDIUM_FAST ; growth rate
 	dn EGG_GROUND, EGG_GROUND ; egg groups
 
 	ev_yield 1 SAt
