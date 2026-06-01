@@ -8,7 +8,7 @@
 	dn GENDER_F50, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
 
 	abilities_for CHINCHOU, VOLT_ABSORB, ILLUMINATE, WATER_ABSORB
-	db GROWTH_SLOW ; growth rate
+	db GROWTH_MEDIUM_SLOW ; growth rate
 	dn EGG_WATER_2, EGG_WATER_2 ; egg groups
 
 	ev_yield 1 HP
