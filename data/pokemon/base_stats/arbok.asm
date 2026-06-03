@@ -6,7 +6,7 @@ else
 	;   bst   hp  atk  def  sat  sdf  spe
 endc
 
-	db POISON, POISON ; type
+	db POISON, DARK ; type
 	db 90 ; catch rate
 	db 147 ; base exp
 	db NO_ITEM, POISON_BARB ; held items
